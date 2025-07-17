@@ -13,7 +13,6 @@ header {
   padding: 1.25rem;
   text-align: center;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  /* inicial sem sombra */
   box-shadow: none;
   position: fixed;
   width: 100%;
@@ -35,7 +34,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -331,11 +330,11 @@ footer p {
   justify-content: center;
   gap: 1rem;
   font-size: 1rem;
-  color: white;
+  color: #fff;
 }
 
 .footer-icon {
-  color: white; /* cor padrão dos ícones */
+  color: #fff;
   transition: color 0.3s ease;
   display: inline-flex;
   align-items: center;
@@ -351,11 +350,11 @@ footer p {
 }
 
 .footer-icon.github:hover {
-  color: #ffc400; /* amarelo da pizzaria no hover */
+  color: #ffc400;
 }
 
 .footer-icon.linkedin:hover {
-  color: #0a66c2; /* azul oficial do LinkedIn no hover */
+  color: #0a66c2;
 }
 
 @media (max-width: 768px) {
